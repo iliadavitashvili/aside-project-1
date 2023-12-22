@@ -3,8 +3,8 @@
 }
 
 body {
-  margin: 0;
-  width: 100vw;
+  margin: 0 auto;
+  max-width: 1480px;
 }
 
 body > header,
