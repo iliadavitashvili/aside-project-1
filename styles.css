@@ -5,7 +5,11 @@
 body {
   margin: 0 auto;
   max-width: 1480px;
+ 
+  
 }
+
+
 
 body > header,
 body > div {
@@ -37,8 +41,8 @@ header nav {
 }
 
 header ul {
-  display: flex;
   width: 100%;
+  display: flex;
   list-style-type: none;
   justify-content: space-between;
 }
@@ -995,4 +999,11 @@ ul {
   font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 200% */
+}
+
+@media (max-width: 550px) {
+  body{
+    min-width: 1480px;
+    max-width: 100%;
+  }
 }
