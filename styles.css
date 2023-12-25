@@ -1586,7 +1586,7 @@ ul {
   line-height: 32px; /* 200% */
 }
 
-@media (max-width:7650px{
+@media (max-width:7650px){
   .part-1{
     flex-direction: column;
     justify-content: center;
