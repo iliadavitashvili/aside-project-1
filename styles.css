@@ -72,6 +72,45 @@ header nav ul li:hover {
   border-bottom: 2px solid white;
 }
 
+.menu-button {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #f5ae5c;
+  display: none;
+}
+@media (max-width: 768px) {
+ 
+  .header-img {
+    display: none;
+
+  }
+  header nav {
+    display: none;
+  }
+  
+  .menu-button{
+    display: block;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:3px;
+  }
+ .menu-button-line{
+  width: 22px;
+height: 2px;
+background-color: #D8D8D8;
+
+
+ }
+  body > header{
+    justify-content: space-between;
+    padding: 0;
+    
+  }
+}
 /* block-1 */
 
 .block-1 {
@@ -896,45 +935,44 @@ a {
   height: 624px;
   background-color: white;
   z-index: 20;
-
 }
-.block-6-svg-2{
+.block-6-svg-2 {
   position: absolute;
   left: 60%;
   top: 4%;
   z-index: 10;
 }
 
-.block-6-svg-3{
+.block-6-svg-3 {
   position: absolute;
   left: 48%;
   top: 12%;
 }
 
-.block-6-svg-4{
+.block-6-svg-4 {
   position: absolute;
   top: 75%;
   left: 10%;
 }
-.block-6-mt-2{
+.block-6-mt-2 {
   position: absolute;
   width: 470px;
-height: 624px;
+  height: 624px;
 
   background-color: white;
   z-index: 20;
   top: 70%;
- left: 10%;
+  left: 10%;
 }
-.block-6-svg-5{
+.block-6-svg-5 {
   position: absolute;
   top: 69%;
   left: 19%;
 }
-.block-6-svg-6{
+.block-6-svg-6 {
   position: absolute;
   top: 75%;
-  left:40% ;
+  left: 40%;
 }
 
 .block6 .section-1 {
@@ -942,15 +980,15 @@ height: 624px;
   margin-bottom: 150px;
 }
 
-.black-circle-middle-1{
-   position: absolute;
-   top: 70%;
-   left: 0;
+.black-circle-middle-1 {
+  position: absolute;
+  top: 70%;
+  left: 0;
 }
-.black-circle-middle-2{
- position: absolute;
- top: 60%;
- left: 0;
+.black-circle-middle-2 {
+  position: absolute;
+  top: 60%;
+  left: 0;
 }
 .block6 .section-1 h3 {
   color: #171b1b;
@@ -1182,7 +1220,6 @@ footer {
   background: #171b1b;
 }
 
-
 ul {
   list-style: none;
 }
@@ -1200,15 +1237,15 @@ ul {
   justify-content: space-around;
   align-items: baseline;
 }
-#footer-svg-1{
+#footer-svg-1 {
   position: absolute;
   right: 0;
   top: -10%;
 }
-#footer-svg-2{
+#footer-svg-2 {
   position: absolute;
   bottom: 0;
-  left:45%;
+  left: 45%;
 }
 .part-1 li {
   color: #fff;
@@ -1260,9 +1297,10 @@ ul {
   line-height: 32px; /* 200% */
 }
 
-@media (max-width: 550px) {
+/* @media (max-width: 550px) {
   body {
-    min-width: 1480px;
-    max-width: 100%;
+    width: 1480px;
   }
-}
+
+  
+} */
