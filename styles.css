@@ -79,48 +79,42 @@ header nav ul li:hover {
   background-color: #f5ae5c;
   display: none;
 }
-.block-1-responsive-img{
+.block-1-responsive-img {
   display: none;
 }
 @media (max-width: 768px) {
- 
   .header-img {
     display: none;
-
   }
   header nav {
     display: none;
   }
-  
-  .menu-button{
+
+  .menu-button {
     display: block;
     margin-right: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:3px;
+    gap: 3px;
   }
- .menu-button-line{
-  width: 22px;
-height: 2px;
-background-color: #D8D8D8;
-
-
- }
-  body > header{
+  .menu-button-line {
+    width: 22px;
+    height: 2px;
+    background-color: #d8d8d8;
+  }
+  body > header {
     justify-content: space-between;
     padding: 0;
-    
   }
-  .block-1-responsive-img{
-    align-self:flex-start;
+  .block-1-responsive-img {
+    align-self: flex-start;
     display: block;
     width: 329px;
     height: 359px;
     flex-shrink: 0;
   }
-  
 }
 /* block-1 */
 
@@ -231,41 +225,39 @@ background-color: #D8D8D8;
   font-weight: 400;
   line-height: 32px; /* 160% */
 }
-@media (max-width:748px){
-  body > div.block-1{
+@media (max-width: 748px) {
+  body > div.block-1 {
     padding-top: 0;
     padding-bottom: 100px;
-   }
-  .block-1 > svg{
+  }
+  .block-1 > svg {
     display: none;
   }
-  .block-img{
+  .block-img {
     display: none;
   }
-  .block-1 h1{
-    color: #FFF;
-    font-family: "Ultra",sans-serif;
+  .block-1 h1 {
+    color: #fff;
+    font-family: "Ultra", sans-serif;
     font-size: 56px;
     font-style: normal;
     font-weight: 400;
     line-height: 64px; /* 114.286% */
- 
   }
 
-  body .block-1{
+  body .block-1 {
     padding: 0;
-   padding-left: 23px;
+    padding-left: 23px;
   }
-  .block-1 p{
+  .block-1 p {
     width: 329px;
-height: 103px;
-flex-shrink: 0;
-font-size: 20px;
+    height: 103px;
+    flex-shrink: 0;
+    font-size: 20px;
   }
-  .block-1 .block-svg-last{
+  .block-1 .block-svg-last {
     display: block;
   }
-  
 }
 /* block-2 */
 
@@ -522,7 +514,85 @@ font-size: 20px;
   margin: 0;
   padding: 0;
 }
+.block-2-responsive-img {
+  display: none;
+  margin-top: 96px;
+  margin-left: -70px;
+}
+@media (max-width: 724px) {
+  .block-2 svg,
+  .block-2-mt,
+  .block-2-mt-2 {
+    display: none;
+  }
+  .block-2 .first-half {
+    margin: 0;
+  }
+  .block-2 .first-half h1 {
+    margin-left: -70px;
+    width: 233px;
+    color: #171b1b;
+    font-family: "Ultra", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 120% */
+  }
+  .block-2 .first-half section {
+    margin: 0;
+    padding: 0;
+  }
+  .block-2 .first-half section .p-text {
+    width: 245px;
+    height: 133px;
+    flex-shrink: 0;
+    color: rgba(51, 51, 51, 0.5);
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 200% */
+  }
+  .block-2 .first-half section h3 {
+    color: #171b1b;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 200% */
+  }
+  .black-circle-upper {
+    left: -30%;
+  }
+  .black-circle-upper > svg {
+    display: block;
+  }
 
+  .product-container {
+    flex-direction: column;
+  }
+  .product-container > .product {
+    width: 332px;
+    height: 416px;
+    flex-shrink: 0;
+  }
+  .product-container > .product > .img-left {
+    display: block;
+  }
+  .block-2-responsive-img {
+    display: block;
+  }
+  .block-2 .second-half h2 {
+    color: #171b1b;
+    text-align: center;
+    font-family: "Ultra", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 120% */
+    width: 400px;
+  }
+}
 .block-3 {
   position: relative;
   height: 480px;
@@ -576,7 +646,36 @@ font-size: 20px;
   font-weight: 400;
   line-height: 64px; /* 114.286% */
 }
+@media (max-width: 748px) {
+  .block-3 {
+    height: 560px;
+    flex-shrink: 0;
+    overflow: hidden;
+    display: block;
+  }
 
+  .block-3-svg-2 {
+    top: 35%;
+    left: 35%;
+  }
+  .block-3-svg-4 {
+    bottom: 0;
+  }
+  .block-3 h2  {
+    
+    margin-left: -50px;
+    color: #FFF;
+font-family: Ultra;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 48px; /* 120% */
+  }
+  .block-3 h3{
+    margin-top: 350px;
+    margin-left: -50px;
+  }
+}
 .block-4 {
   background: #f5d3ab;
 }
