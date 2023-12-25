@@ -571,12 +571,12 @@ header nav ul li:hover {
   .product-container {
     flex-direction: column;
   }
-  .product-container > .product {
+  .block-2 .second-half .product {
     width: 332px;
     height: 416px;
     flex-shrink: 0;
   }
-  .product-container > .product > .img-left {
+  .block-2 .second-half .product .img-left {
     display: block;
   }
   .block-2-responsive-img {
@@ -661,17 +661,16 @@ header nav ul li:hover {
   .block-3-svg-4 {
     bottom: 0;
   }
-  .block-3 h2  {
-    
+  .block-3 h2 {
     margin-left: -50px;
-    color: #FFF;
-font-family: Ultra;
-font-size: 40px;
-font-style: normal;
-font-weight: 400;
-line-height: 48px; /* 120% */
+    color: #fff;
+    font-family: Ultra;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 120% */
   }
-  .block-3 h3{
+  .block-3 h3 {
     margin-top: 350px;
     margin-left: -50px;
   }
@@ -842,7 +841,26 @@ a {
   padding-bottom: 111px;
   text-align: center;
 }
-
+@media (max-width: 748px) {
+  .heading-wrapper h1 {
+    color: #171b1b;
+    font-family: Ultra;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 120% */
+    width: 313px;
+    margin-left: -80px;
+  }
+  .grid-template {
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+  .image-1 {
+    grid-column: unset;
+  }
+}
 .block-5 {
   background: #171b1b;
   position: relative;
@@ -1061,7 +1079,65 @@ a {
   left: 190px;
   top: 20px;
 }
+@media (max-width: 748px) {
+  .sub-h3 {
+    margin-top: 80px;
+  }
+  .sub-h1 {
+    color: #fff;
+    text-align: center;
+    font-family: Ultra;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 120% */
+    width: 20px;
+    margin-bottom: 100px;
+    
+    
+  }
+  .product-container{
+    gap: 10px;
+    display: flex;
+  }
+  .block-5 .product{
+    width: 300px;
+    
+  }
+  .block-5 .product-container{
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .block-5 .section-2 {
+    padding: 0;
+  }
+  body > .block-5{
+    padding: 10px 20px;
+  }
+  .grid-container{
+    
+    grid-template-areas:
+      "item1"
+      
+      "item2"
+      "item3"
+      "item4"
+      "item5";
+    grid-template-columns:repeat(5,90vw) ;
+    grid-template-rows: 700px repeat(4, 500px) ;
+  }
 
+  .grid-container .item1 div > div > p {
+    width: 100%;
+    /* padding: 20px; */
+
+  }
+  .grid-container .item1 div > div{
+    width: 100%;
+    padding: 20px;
+  }
+  
+}
 .block6 {
   position: relative;
   background: #f5d3ab;
